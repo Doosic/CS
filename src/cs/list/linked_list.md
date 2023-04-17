@@ -22,3 +22,14 @@
 - 사실상 insertion, deletion 도 변경을 가할 노드까지 순차적으로 이동해야 하기 떄문에 
   O(n)의 시간복잡도를 가진다고 볼수 있다.
 - 노드는 data의 값과 next 노드의 주소를 저장하기 때문에 array보다 데이터 하나당 차지하는 메모리가 더 크다.
+
+## 연결리스트의 추상자료형
+
+- 연결리스트의 추상자료형(어떠한 사물에 공통된 기능들을 모아 상세 구현을 감추고 추상화해둔것)
+  - 1.모든 데이터 출력 printAll();
+  - 2.모든 데이터 제거 clear();
+  - 3.인덱스 삽입 insertAt(index, data);
+  - 4.마지막 삽입 insertLast(data);
+  - 5.인덱스 삭제 deleteAt(index);
+  - 6.마지막 삭제 deleteLast();
+  - 7.인덱스 읽기 getNodeAt(index);
